@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Reuse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">♻️</div>
+    <div class="top-icons">🔔 &nbsp; 🆕 &nbsp; <span class="avatar">GS</span></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Share More. Spend Less.<br>Waste Less. 🌱</h1>
+      <p>Campus Reuse connects students to share, borrow, rent, exchange and give away useful items within their college community.</p>
+      <div class="buttons">
+        <button onclick="findItem()">🔎 Find an Item</button>
+        <button onclick="postItem()">➕ Post an Item</button>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="card"><div class="icon">📦</div><strong>7</strong><span>Items Available</span></div>
+      <div class="card"><div class="icon">👥</div><strong>2</strong><span>Students Connected</span></div>
+      <div class="card"><div class="icon">♻️</div><strong>0</strong><span>Items Reused</span></div>
+      <div class="card"><div class="icon">💰</div><strong>₹0</strong><span>Money Saved</span></div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <button>🏠<small>Home</small></button>
+    <button onclick="findItem()">🔎<small>Browse</small></button>
+    <button>📌<small>Needs</small></button>
+    <button>🔔<small>Alerts</small></button>
+    <button>👤<small>Profile</small></button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
